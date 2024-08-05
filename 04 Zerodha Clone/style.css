@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  /* margin-top: 8px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 200px;
+}
+
+.navImg img {
+  height: 15px;
+}
+.navImg img:hover {
+  cursor: pointer;
+}
+.navRight {
+  display: flex;
+  position: relative;
+  align-items: center;
+  /* background-color: red; */
+  right: 200px;
+  color: #666;
+}
+
+.navRight > .navRtElem {
+  margin: 24px;
+}
+
+.navRight > .navRtElem:hover {
+  cursor: pointer;
+  color: rgb(0, 119, 255);
+  transition: 0.1s;
+}
+.navRight > .navRtElem:hover i {
+  color: #666;
+}
+
+main {
+  /* margin-top: 60px; */
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImg {
+  margin-top: 100px;
+  width: 700px;
+  height: 400px;
+  /* background-image: url(https://zerodha.com/static/images/landing.png); */
+  background-image: url(./landing.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: #0d6efd; */
+  position: relative;
+  transform: scale(1.3);
+  /* left: ; */
+  /* bottom: 11%; */
+}
+.mainH2 {
+  /* background-color: yellow; */
+  margin-top: 90px;
+}
+.mainH2 h2 {
+  font-size: 45px;
+}
+.mainPara {
+  margin-top: 20px;
+  /* background-color: green; */
+}
+.mainPara p {
+  font-size: 25px;
+}
+
+.mainBtn {
+  /* background-color: blue; */
+  margin-top: 60px;
+}
+
+.mainBtn {
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 23px;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.mainBtn:hover {
+  color: #fff;
+  background-color: black;
+}
+
+/* .page2{
+    height: 90vh;
+    width: 100%;
+    background-color: goldenrod;
+} */
