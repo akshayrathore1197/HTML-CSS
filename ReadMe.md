@@ -1,9 +1,9 @@
  03 Vs Code Landing Page
-![Alt text](images/image.png)
+![Alt text](Images/image.png)
 
 02 Image Gallery
-![Alt text](images/image-1.png)
+![Alt text](Images/image-1.png)
 
 
 01 Multi-Step Form
-![Alt text](images/image-2.png)
+![Alt text](Images/image-2.png)
